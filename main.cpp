@@ -60,6 +60,7 @@ public:
 };
 
 int main(){
+    system("cls");
     Queue obj;
     int choice, var_x;
     cout<<"Welcome to the Queue Data Structure Program\n";
