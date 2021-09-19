@@ -25,7 +25,7 @@ public:
     void count_disp(){
         cout<<"Elements in Queue are : ";
         for(int i=0; i<N; i++){
-            cout<<"\n"<<array[i];
+            cout<<" "<<array[i];
         }
         cout<<"Total number of elements in queue are : "<<rear - front + 1;
     }
